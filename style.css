@@ -1,0 +1,79 @@
+    <style>
+        .container{
+            border-radius: 30px;
+            width: 520px;
+            height: 520px;
+            background: linear-gradient(rgb(89, 220, 190),rgb(180, 97, 222));
+            margin-left: 200px;
+        }
+        .search{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 20px;
+        }
+
+        #search-input{
+            font-size: 30px;
+            margin-right: 10px;
+            cursor: pointer;
+            margin-left: 15px;
+            height:50px;
+
+        }
+
+        #search-btn{
+            font-size: 30px;
+            background-color: rgb(229, 224, 120);
+            color: black;
+            cursor: pointer;
+            height: 50px;
+        }
+
+        .img{
+            height: 100px;
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 195px;
+            margin-top: 50px;
+        }
+        .temp{
+            font-size: larger;
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            font-size: 50px;
+        }
+        .city{
+            font-size: 65px;
+            display: flex;
+            justify-content: center;
+
+        }
+        .hw{
+            display: flex;
+            justify-content: space-evenly;
+            font-size: 25px;
+            margin-top: 50px;
+        }
+        
+        .humwind{
+            display: flex;
+            justify-content: space-evenly;
+            font-size: 20px;
+            margin-top: 5px;
+        }
+
+        .wind{
+            margin-right: 35px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .hum{
+            font-size: 25px;
+            font-weight: bold;
+        }
+    </style>
